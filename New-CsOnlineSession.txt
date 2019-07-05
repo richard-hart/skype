@@ -1,0 +1,11 @@
+Skype for Business PowerShell commands
+
+
+Run PowerShell as admin (right-click run as) and then type the following:
+
+Import-Module SkypeOnlineConnector
+$credential = Get-Credential
+$proxysettings = New-PSSessionOption -ProxyAccessType IEConfig
+$sfboSession = New-CsOnlineSession -Credential $credential -SessionOption $proxysettings –overrideadmindomain "acmecorp.onmicrosoft.com" -verbose
+Import-PSSession $sfboSession
+
