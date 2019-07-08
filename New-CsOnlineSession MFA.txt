@@ -1,4 +1,4 @@
-Skype for Business MFA PowerShell commands
+New-CsOnlineSession with MFA
 
 Download the latest Skype for Business Online, Windows PowerShell Module from here and install:
 https://www.microsoft.com/en-us/download/details.aspx?id=39366&751be11f-ede8-5a0c-058c-2ee190a24fa6=True
